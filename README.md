@@ -307,7 +307,6 @@ package main
 import (
 	goflag "flag"
     "os"
-
 	flag "github.com/spf13/pflag"
 )
 
