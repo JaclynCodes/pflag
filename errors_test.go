@@ -52,7 +52,7 @@ func TestInvalidValueError(t *testing.T) {
 		t.Errorf("Expected GetValue to return %q, got %q", "foo", err.GetValue())
 	}
 	if err.Unwrap() != expectedCause {
-		t.Errorf("Expected Unwrwap to return %q, got %q", expectedCause, err.Unwrap())
+		t.Errorf("Expected Unwrap to return %q, got %q", expectedCause, err.Unwrap())
 	}
 }
 
